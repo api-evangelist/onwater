@@ -1,0 +1,32 @@
+aid: onwater
+name: OnWater
+description: "Determine if a lat/lon is on water or land"
+url: https://onwater.io/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: OnWater
+    description: "Determine if a lat/lon is on water or land"
+    humanURL: https://onwater.io/
+    baseURL: https://onwater.io/
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: https://onwater.io/
+common:
+  - type: Website
+    url: https://onwater.io/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
