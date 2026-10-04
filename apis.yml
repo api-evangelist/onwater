@@ -41,7 +41,6 @@ apis:
   - name: OnWater
     description: "Determine if a lat/lon is on water or land"
     humanURL: https://onwater.io/
-    baseURL: https://onwater.io/
     tags:
       - Geocoding
     properties:
